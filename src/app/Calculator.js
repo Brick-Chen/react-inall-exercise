@@ -32,7 +32,6 @@ class Calculator extends Component {
           operator = val;
         }
       } else {
-        console.log(val);
         if (operator === '') {
           a += val;
         } else {
